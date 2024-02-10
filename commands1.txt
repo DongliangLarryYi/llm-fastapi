@@ -1,0 +1,85 @@
+    1  ls
+    2  whoami?
+    3  whoami
+    4  pwd
+    5  mkdir backend
+    6  cd backend/
+    7  wget
+    8  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/requirements.txt
+    9  pip install -r requirements.txt
+   10  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/backend/main.py
+   11  pip install -r requirements.txt
+   12  curl -X 'GET'   'https://8000-donglianglar-llmfastapi-ucpiydvfej3.ws-us107.gitpod.io/'   -H 'accept: application/json'
+   13  curl -X 'POST'   'https://8000-donglianglar-llmfastapi-ucpiydvfej3.ws-us107.gitpod.io/get_gemini_completion'   -H 'accept: application/json'   -H 'Content-Type: application/x-www-form-urlencoded'   -d 'gemini_api_key=AIzaSyB6iiYFMSVzxT46dyDTL-qu94sTt3PQ8jY&prompt=can%20you%20give%20me%20a%20one%20day%20trip%20in%20palo%20alto%3F'
+   14  cd backend/
+   15  curl -X 'POST'   'https://8000-donglianglar-llmfastapi-ucpiydvfej3.ws-us107.gitpod.io/get_gemini_completion'   -H 'accept: application/json'   -H 'Content-Type: application/x-www-form-urlencoded'   -d 'gemini_api_key=AIzaSyB6iiYFMSVzxT46dyDTL-qu94sTt3PQ8jY&prompt=can%20you%20give%20me%20a%20one%20day%20trip%20in%20palo%20alto%3F'
+   16  curl -X 'POST'   'https://8000-donglianglar-llmfastapi-ucpiydvfej3.ws-us107.gitpod.io/get_gemini_completion'   -H 'accept: application/json'   -H 'Content-Type: application/x-www-form-urlencoded'   -d 'gemini_api_key=AIzaSyB6iiYFMSVzxT46dyDTL-qu94sTt3PQ8jY&prompt=can%20you%20give%20me%20a%20one%20day%20trip%20in%20palo%20alto%3F'
+   17  pwd
+   18  git add .
+   19  git commit -m "this is my first commit with my genai api"
+   20  git push
+   21  git add .
+   22  git commit -m "this is my first commit with my genai api"
+   23  git push
+   24  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   25  pwd
+   26  cd backend/
+   27  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+   28  docker build -t llm
+   29  docker build -t llm .
+   30  docker run -p 8000:8000 llm
+   31  cd backend
+   32  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/backend/Dockerfile
+   33  docker build -t llm .
+   34  docker run -p 8000:8000 llm
+   35  docker ps
+   36  cd ..
+   37  npx create-react-app frontend
+   38  cd frontend
+   39  npm start
+   40  cd $GITPOD_REPO_ROOT/frontend/src
+   41  rm -f App.js
+   42  rm -f App.css
+   43  rm -f environment.js
+   44  rm -f  index.js
+   45  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.css
+   46  ls
+   47  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/App.js
+   48  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/frontend/src/environment.js
+   49  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/src/index.js
+   50  cd $GITPOD_REPO_ROOT
+   51  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/styles/update_url.sh
+   52  chmod +x update_url.sh
+   53  ls -la update_url.sh
+   54  ./update_url.sh
+   55  cd $GITPOD_REPO_ROOT/frontend
+   56  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/frontend/Dockerfile
+   57  docker build -t react-frontend .
+   58  docker run -p 3000:3000 react-frontend
+   59  cd $GITPOD_REPO_ROOT
+   60  wget https://raw.githubusercontent.com/Monikakusumanchi/React_app/main/docker-compose.yml
+   61  docker compose build
+   62  docker compose up
+   63  cd $GITPOD_REPO_ROOT
+   64  docker compose build
+   65  docker compose up
+   66  docker ps
+   67  docker compose stop
+   68  docker ps
+   69  docker compose stop
+   70  docker stop
+   71  docker stop 040c2596fa13
+   72  docker
+   73  docker ps
+   74  docker compose build
+   75  docker compose up
+   76  git add .
+   77  git commit -m “Created a chatbot”
+   78  git commit -m 'Created a chatbot'
+   79  git push
+   80  history > 10-072024 commands1.txt
+   81  pwd
+   82  mkdir
+   83  touch start.sh
+   84  ls
+   85  history >> commands1.txt
